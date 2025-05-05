@@ -1,0 +1,15 @@
+// DATED - 06/05/2025
+// THIS IS MY FIRST C++ PROGRAM. 
+
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main () {
+    string name;
+    cout << "GOOD EVENING SIR, PLEASE ENTER YOUR NAME : ";
+    cin >> name;
+    cout << "HELLO " << name << " SIR, WELCOME TO THE CODING ! ";
+    return 0;
+}
