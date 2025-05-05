@@ -1,0 +1,22 @@
+DATED - 06/05/2025
+
+#include <iostream>
+using namespace std;
+
+int main () {
+    char ch;
+    cout << " ENTER YOUR DESIRED CHARACTER : ";
+    cin >> ch;
+    if ( ch >= 'a' && ch <= 'z') {
+        cout << "THIS IS A LOWER CASE LETTER";
+    } else if ( ch >= 'A' && ch <='Z') {
+        cout << "THIS IS A UPPER CASE LETTER";
+    } else if ( ch >= '0' && ch<= '9') {
+       cout << "THIS IS A NUMERIC CHARACTER";
+    } else {
+        cout << "THIS IS A SPECIAL CHARACTER";
+    }
+    return 0;
+    
+
+}
