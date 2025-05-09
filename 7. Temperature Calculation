@@ -1,0 +1,33 @@
+// DATED - 9/05/2025
+
+
+
+#include <iostream>
+using namespace std;
+
+int main () {
+    int f ;
+    cout << " ENTER THE TEMPERATURE IN FARENHEIT : ";
+    cin >> f;
+
+    int c = (f - 32)*5/9;
+    cout << " THE TEMPEREATURE IN CELCIUS IS : " << c << endl;
+
+
+    
+
+}
+
+
+
+#include <iostream>
+using namespace std;
+
+int main () {
+    int c ;
+    cout << "ENTER THE TEMPERATURE IN CELCIUS : ";
+    cin >> c ;
+    
+    int f = c*9/5 + 32;
+    cout << "THE TEMPERATURE IN FARENHIET : " << f <<endl;
+}
