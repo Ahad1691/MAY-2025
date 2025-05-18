@@ -1,0 +1,17 @@
+//DATED - 18/05/2025
+
+
+
+
+#include <iostream>
+using namespace std;
+
+int main () {
+    int a = 1 ;
+    int b = a++;
+    int c = ++a;
+    cout<< "value of b:"  << b  << endl;
+    
+    cout<<"value of c:" <<  c << endl;
+
+}
