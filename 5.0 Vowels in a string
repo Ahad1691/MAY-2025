@@ -1,7 +1,5 @@
 DATE - 31/05/2025 
 
-
-
 #include <iostream>
 using namespace std;
 
@@ -22,3 +20,8 @@ int main() {
     cout << "Number of vowels in \"" << str << "\": " << count << endl;
     return 0;
 }
+
+
+
+
+last program of may. 
